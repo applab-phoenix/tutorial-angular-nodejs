@@ -8,11 +8,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * ? Would you like to add Angular routing? Yes
 * ? Which stylesheet format would you like to use? CSS
 * We also need to generate some Components and Services:
-`ng g s services/tutorial`
-`ng g c components/add-tutorial`
-`ng g c components/tutorial-details`
-`ng g c components/tutorials-list`
-`ng g class models/tutorial --type=model`
+    - `ng g s services/tutorial`
+    - `ng g c components/add-tutorial`
+    - `ng g c components/tutorial-details`
+    - `ng g c components/tutorials-list`
+    - `ng g class models/tutorial --type=model`
 
 ## Development server
 
