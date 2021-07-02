@@ -1,10 +1,22 @@
 # TutorialAngularNodejs
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+`npm install -g @angular/cli`
+
+## ng Generate
+`ng new tutorial-angular-nodejs`
+* ? Would you like to add Angular routing? Yes
+* ? Which stylesheet format would you like to use? CSS
+* We also need to generate some Components and Services:
+`ng g s services/tutorial`
+`ng g c components/add-tutorial`
+`ng g c components/tutorial-details`
+`ng g c components/tutorials-list`
+`ng g class models/tutorial --type=model`
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve --port 3002` for a dev server. Navigate to `http://localhost:3002/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
